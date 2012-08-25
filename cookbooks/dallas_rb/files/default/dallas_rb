@@ -1,0 +1,11 @@
+server {
+  listen   80;
+  server_name  default;
+
+  access_log  /var/log/nginx/dallas_rb.access.log;
+
+  location / {
+    root   /var/www/dallas_rb;
+    index  index.html index.htm;
+  }
+}
