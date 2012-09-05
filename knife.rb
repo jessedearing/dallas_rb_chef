@@ -1,2 +1,2 @@
 node_name "jessed"
-cookbook_path ["/Users/jessed/code/houston_code_camp_chef/cookbooks"]
+cookbook_path ["/Users/jessed/code/dallas_rb_chef/cookbooks"]
