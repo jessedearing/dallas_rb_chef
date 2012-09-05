@@ -71,7 +71,7 @@ Vagrant::Config.run do |config|
   #   chef.roles_path = "../my-recipes/roles"
   #   chef.data_bags_path = "../my-recipes/data_bags"
     chef.add_recipe 'nginx'
-    chef.add_recipe 'dallas_rb::pre'
+    chef.add_recipe 'dallas_rb'
   end
   #   chef.add_recipe "mysql"
   #   chef.add_role "web"
